@@ -1,0 +1,64 @@
+/* Youth Employment.css */
+
+/* Reset default margin and padding */
+body, h1, h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color for the body */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Center the content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: end;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Style the image */
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the button */
+  .welcome-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .welcome-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the footer */
+  h4 {
+    text-align: center;
+    color: #777777;
+    margin-top: 20px;
+  }
+  

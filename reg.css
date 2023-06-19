@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.register-btn {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#jobListSection {
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .social-links li {
+    margin-left: 20px;
+    list-style: none;
+  }
+  
+  .social-links a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .social-links a:hover {
+    color: whitesmoke
+  }
+  
+  .social-links i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }

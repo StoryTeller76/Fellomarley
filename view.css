@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .social-links li {
+    margin-left: 20px;
+    list-style: none;
+  }
+  
+  .social-links a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .social-links a:hover {
+    color: whitesmoke
+  }
+  
+  .social-links i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
